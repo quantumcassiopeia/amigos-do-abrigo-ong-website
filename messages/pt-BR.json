@@ -1,3 +1,25 @@
 {
-  "Homepage": "Teste"
+  "Navbar": [
+    {
+      "label": "Página inicial",
+      "slug": "/"
+    },
+    {
+      "label": "Como ajudar",
+      "slug": "/como-ajudar"
+    },
+    {
+      "label": "Nossa história",
+      "slug": "/nossa-historia"
+    },
+
+    {
+      "label": "Fale conosco",
+      "slug": "/fale-conosco"
+    },
+    {
+      "label": "Adote",
+      "slug": "/adote"
+    }
+  ]
 }
