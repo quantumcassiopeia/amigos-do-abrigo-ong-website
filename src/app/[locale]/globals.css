@@ -19,6 +19,10 @@ body {
   font-weight: bold;
 }
 
+.border-base {
+  border-radius: 12px;
+}
+
 /* Sections */
 
 .hero {

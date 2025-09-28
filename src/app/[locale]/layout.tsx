@@ -8,6 +8,7 @@ import { Locale } from "next-intl";
 import type { Metadata } from "next";
 import { Inter, Sour_Gummy } from "next/font/google";
 import "./globals.css";
+import Header from "@/layouts/Header";
 
 const accentFont = Sour_Gummy({
   variable: "--font-accent",
@@ -42,7 +43,10 @@ export default async function RootLayout({
       <body
         className={`${accentFont.variable} ${baseFont.variable} antialiased relative flex flex-col overflow-x-clip h-screen max-w-screen`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
