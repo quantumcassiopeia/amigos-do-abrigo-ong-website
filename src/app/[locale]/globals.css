@@ -40,6 +40,7 @@ body {
   .hero-title {
     font-weight: bold;
     font-size: 3.625rem;
+    line-height: 3.725rem;
 
     max-width: 643px;
   }

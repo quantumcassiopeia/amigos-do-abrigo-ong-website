@@ -33,12 +33,12 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed h-16 md:h-20 w-full z-50 transition-all duration-500 ease-in-out text-[var(--yellow-base)] accent-font  ${
+      className={`fixed h-16 md:h-20 w-full z-50 transition-all duration-500 ease-in-out ${
         isAtTop ? "bg-transparent shadow-none" : "bg-white shadow-md"
       } ${isMobileHeaderHidden ? "-translate-y-full" : ""} md:-translate-y-0`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-7xl px-4 mx-auto ">
-        <Link href="/" className="relative w-16 h-16 border-base overflow-clip">
+        <Link href="/" className="relative w-16 h-16">
           <Image
             src="/images/logo.png"
             alt="Logo e homepage deAmigos do Abrigo João Rosa"
@@ -46,7 +46,11 @@ export default function Header() {
             className="object-cover"
           />
         </Link>
-        <Navbar className="hidden md:flex gap-4 bg-white px-4 py-1 border-base" />
+        <Navbar
+          className="hidden md:flex gap-4 bg-white px-4 py-1 border-base text-[var(--yellow-base)] accent-font"
+          hoverColor="var(--blue-base)"
+          lineColor="var(--blue-base)"
+        />
         <HamburgerMenu className="md:hidden bg-[var(--base-color)]/80 rounded-sm" />
       </div>
     </header>

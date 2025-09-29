@@ -4,7 +4,15 @@ import { usePathname } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
-export function AnimatedRoutes({ className }: { className?: string }) {
+export function AnimatedRoutes({
+  className,
+  lineColor,
+  hoverColor,
+}: {
+  className?: string;
+  lineColor: string;
+  hoverColor: string;
+}) {
   const pathname = usePathname();
 
   const links = useTranslations().raw("Navbar") as {
@@ -17,7 +25,7 @@ export function AnimatedRoutes({ className }: { className?: string }) {
       {links.map(({ label, slug }) => (
         <li key={label} className="group">
           <Link
-            className="leading-7 hover:text-[var(--blue-base)] transition-colors duration-500 ease-in-out"
+            className={`leading-7 hover:text-[${hoverColor}] transition-colors duration-500 ease-in-out`}
             href={slug}
           >
             {label}
@@ -25,7 +33,7 @@ export function AnimatedRoutes({ className }: { className?: string }) {
           <div
             className={`${
               pathname === slug ? "w-full" : "w-0"
-            } bg-[var(--blue-base)] h-1 w-0 rounded-full group-hover:w-full transition-all duration-500 ease-in-out`}
+            } bg-[${lineColor}] h-1 w-0 rounded-full group-hover:w-full transition-all duration-500 ease-in-out`}
           ></div>
         </li>
       ))}
