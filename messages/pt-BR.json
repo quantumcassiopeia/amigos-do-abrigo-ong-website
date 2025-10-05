@@ -1,4 +1,11 @@
 {
+  "Homepage": {
+    "Hero": {
+      "Title": "Amigos do Abrigo João Rosa",
+      "Subtitle": "De doação em doação, enchemos vários potinhos de ração"
+    }
+  },
+
   "Navbar": [
     {
       "label": "Página inicial",

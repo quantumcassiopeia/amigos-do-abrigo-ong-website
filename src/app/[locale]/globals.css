@@ -23,6 +23,10 @@ body {
   border-radius: 12px;
 }
 
+.page-side-padding {
+  padding: 0 0.5rem;
+}
+
 /* Sections */
 
 .hero {
@@ -49,6 +53,7 @@ body {
     font-weight: 600;
     font-size: 1.125rem;
 
+    padding-top: 1rem;
     max-width: 643px;
   }
 }
