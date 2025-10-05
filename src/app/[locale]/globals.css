@@ -25,7 +25,8 @@ body {
 }
 
 .page-side-padding {
-  padding: 0 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 /* Sections */

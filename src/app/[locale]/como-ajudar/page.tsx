@@ -54,6 +54,7 @@ export default function ComoAjudar() {
               alt="Cao"
               width={400}
               height={400}
+              unoptimized
               className="border-base shadow-2xl  hover:-translate-y-3 hover:scale-102 transition-transform duration-500 ease-in-out"
             />
           </a>

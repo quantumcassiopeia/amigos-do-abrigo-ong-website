@@ -4,18 +4,16 @@ import Navbar from "@/components/Navbar";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--blue-base)] text-[var(--white-base)] page-side-padding ">
+    <footer className="bg-[var(--blue-base)] text-[var(--white-base)] accent-font page-side-padding mt-auto">
       <div className="flex flex-col space-y-6 pt-10 md:flex-row justify-between max-w-7xl mx-auto">
         <div>
-          <Link
-            href="/"
-            className="relative w-16 h-56 border-base overflow-clip"
-          >
+          <Link href="/">
             <Image
               src="/images/logo.png"
               alt="Logo e homepage deAmigos do Abrigo João Rosa"
-              fill
-              className="object-cover"
+              height={64}
+              width={64}
+              unoptimized
             />
           </Link>
           <Navbar className="w-fit" lineColor="var(--yellow-base)" />

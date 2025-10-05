@@ -22,7 +22,7 @@ export function AnimatedRoutes({
     <ul className={`${className}`}>
       {links.map(({ label, slug }) => (
         <li key={label} className="group">
-          <Link className="leading-7 inline-block " href={slug}>
+          <Link className="leading-7 inline-block" href={slug}>
             {label}
             <div
               className={`${
