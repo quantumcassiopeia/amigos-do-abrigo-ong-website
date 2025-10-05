@@ -16,6 +16,18 @@
     }
   },
 
+  "ComoAjudarPage": {
+    "Hero": {
+      "Title": "Como ajudar",
+      "Subtitle": "Existem hoje no Abrigo João Rosa mais de 200 cães a espera de um lar. Se você, assim como nós, também ama os animais, venha fazer parte da nossa família!"
+    },
+
+    "SejaUmPadrinho": {
+      "Title": "Seja um padrinho",
+      "Subtitle": "Não pode adotar um doguinho? Sem problemas! Você pode apadrinhar um dos nossos aumigos por um período, conforme os planos abaixo:"
+    }
+  },
+
   "Navbar": [
     {
       "label": "Página inicial",

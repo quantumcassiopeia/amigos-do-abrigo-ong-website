@@ -35,7 +35,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="general-section bg-[var(--green-base)]">
+      <section className="general-section bg-[var(--green-base)] page-side-padding">
         <h2 className="text-[var(--yellow-base)] title">
           {conecteConosco("Title")}
         </h2>
