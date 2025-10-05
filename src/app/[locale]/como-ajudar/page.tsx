@@ -1,3 +1,4 @@
+import { DonatingPlanCard } from "@/components/Cards";
 import { useTranslations } from "next-intl";
 export default function ComoAjudar() {
   const hero = useTranslations("ComoAjudarPage.Hero");
@@ -19,6 +20,8 @@ export default function ComoAjudar() {
         <p className="text-[var(--green-base)] subtitle">
           {sejaUmPadrinho("Subtitle")}
         </p>
+
+        <div></div>
       </section>
     </main>
   );

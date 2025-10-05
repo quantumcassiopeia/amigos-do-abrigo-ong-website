@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Paw from "../../public/icons/paw.svg";
+import Bone from "../../public/icons/bone.svg";
 
 export function DefaultCard({
   title,
@@ -30,6 +31,29 @@ export function CardList({ description }: { description: string }) {
     <div className="flex flex-col max-w-52 items-center justify-center p-5 text-[var(--white-base)] bg-[var(--blue-base)] border-base md:flex-row md:max-w-xl">
       <Paw className="w-9 h-9 md:mr-5 shrink-0" />
       <p className="font-bold text-[var(--yellow-base)]">{description} </p>
+    </div>
+  );
+}
+export function DonatingPlanCard({
+  price,
+  enrollmentPeriod,
+}: {
+  price: string;
+  enrollmentPeriod: string;
+}) {
+  return (
+    <div className="flex flex-col items-center w-[14rem] h-72 py-6 px-3 bg-[var(--yellow-base)] border-base  text-[var(--white-base)]">
+      <Bone className="w-9 h-9 shrink-0" />
+      <h3 className="py-3">
+        <span className="accent-font text-4xl">R$ {price}/</span> mês
+      </h3>
+      <p>
+        Seja um padrinho por{" "}
+        <span className="accent-font">{enrollmentPeriod}</span>
+      </p>
+      <Button className="bg-[var(--blue-base)] text-[var(--white-base)] mt-auto">
+        Apadrinhar
+      </Button>
     </div>
   );
 }
