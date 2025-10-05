@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 
 export default function Home() {
   const hero = useTranslations("Homepage.Hero");
+  const nossoTrabalho = useTranslations("Homepage.NossoTrabalho");
 
   return (
     <main>
@@ -9,9 +10,9 @@ export default function Home() {
         <h1 className="hero-title text-[var(--white-base)] ">
           {hero("Title")}
         </h1>
-        <h2 className="hero-subtitle text-[var(--white-base)]">
+        <p className="hero-subtitle text-[var(--white-base)]">
           {hero("Subtitle")}
-        </h2>
+        </p>
         <video
           className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
           src="/videos/dogs_playing.webm"
@@ -24,7 +25,14 @@ export default function Home() {
         />
       </section>
 
-      <section className="h-96 bg-black "></section>
+      <section className="general-section page-side-padding">
+        <h2 className="text-[var(--yellow-base)] title">
+          {nossoTrabalho("Title")}
+        </h2>
+        <p className="text-[var(--green-base)] subtitle">
+          {nossoTrabalho("Subtitle")}
+        </p>
+      </section>
     </main>
   );
 }
