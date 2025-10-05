@@ -23,6 +23,8 @@ export default function Home() {
           role="presentation"
         />
       </section>
+
+      <section className="h-96 bg-black "></section>
     </main>
   );
 }
