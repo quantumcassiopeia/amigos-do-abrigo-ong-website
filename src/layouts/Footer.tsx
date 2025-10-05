@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--blue-base)] accent-font text-[var(--white-base)] font">
-      <div className="flex flex-col space-y-6 md:flex-row justify-between max-w-7xl mx-auto">
+    <footer className="bg-[var(--blue-base)] accent-font text-[var(--white-base)]">
+      <div className="flex flex-col space-y-6 pt-10 md:flex-row justify-between max-w-7xl mx-auto">
         <div>
           <Link
             href="/"
