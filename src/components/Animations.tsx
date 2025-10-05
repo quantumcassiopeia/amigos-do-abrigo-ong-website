@@ -22,14 +22,14 @@ export function AnimatedRoutes({
     <ul className={`${className}`}>
       {links.map(({ label, slug }) => (
         <li key={label} className="group">
-          <Link className="leading-7" href={slug}>
+          <Link className="leading-7 inline-block " href={slug}>
             {label}
+            <div
+              className={`${
+                pathname === slug ? "w-full" : "w-0"
+              } bg-[${lineColor}] h-1 rounded-full group-hover:w-full transition-all duration-500 ease-in-out`}
+            />
           </Link>
-          <div
-            className={`${
-              pathname === slug ? "w-full" : "w-0"
-            } bg-[${lineColor}] h-1 w-0 rounded-full group-hover:w-full transition-all duration-500 ease-in-out`}
-          ></div>
         </li>
       ))}
     </ul>
