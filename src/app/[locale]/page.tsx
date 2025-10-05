@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 export default function Home() {
   const hero = useTranslations("Homepage.Hero");
   const nossoTrabalho = useTranslations("Homepage.NossoTrabalho");
+  const conecteConosco = useTranslations("Homepage.ConecteConosco");
 
   return (
     <main>
@@ -31,6 +32,15 @@ export default function Home() {
         </h2>
         <p className="text-[var(--green-base)] subtitle">
           {nossoTrabalho("Subtitle")}
+        </p>
+      </section>
+
+      <section className="general-section bg-[var(--green-base)]">
+        <h2 className="text-[var(--yellow-base)] title">
+          {conecteConosco("Title")}
+        </h2>
+        <p className="text-[var(--white-base)] subtitle">
+          {conecteConosco("Subtitle")}
         </p>
       </section>
     </main>
