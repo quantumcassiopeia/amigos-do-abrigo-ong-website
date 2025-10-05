@@ -18,10 +18,7 @@ export default function Footer() {
               className="object-cover"
             />
           </Link>
-          <Navbar
-            lineColor="var(--yellow-base)"
-            hoverColor="var(--yellow-base)"
-          />
+          <Navbar lineColor="var(--yellow-base)" />
         </div>
         <div>
           <h3>redes sociais</h3>

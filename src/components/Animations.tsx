@@ -7,11 +7,9 @@ import { useTranslations } from "next-intl";
 export function AnimatedRoutes({
   className,
   lineColor,
-  hoverColor,
 }: {
   className?: string;
   lineColor: string;
-  hoverColor: string;
 }) {
   const pathname = usePathname();
 
@@ -24,10 +22,7 @@ export function AnimatedRoutes({
     <ul className={`${className}`}>
       {links.map(({ label, slug }) => (
         <li key={label} className="group">
-          <Link
-            className={`leading-7 hover:text-[${hoverColor}] transition-colors duration-500 ease-in-out`}
-            href={slug}
-          >
+          <Link className="leading-7" href={slug}>
             {label}
           </Link>
           <div
