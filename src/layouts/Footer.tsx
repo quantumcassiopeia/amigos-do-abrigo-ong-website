@@ -27,8 +27,8 @@ export default function Footer() {
           <p>20.444.260/0001-63</p>
           <p>{"(Pix Itaú)"}</p>
           <p>
-            Ao confirmar o pagamento, sempre dê uma olhadinha na nossa chave,
-            ok?
+            Ao enviar um pagamento, sempre dê uma olhadinha no nome da nossa
+            chave pix, ok?
           </p>
         </div>
       </div>

@@ -44,15 +44,21 @@ export default function ComoAjudar() {
             voluntários
           </span>{" "}
           que queiram transformar vidas — e acredite, a sua também será
-          transformada nessa jornada de afeto e esperança.
+          profundamente tocada nessa jornada de afeto, empatia e esperança. Ser{" "}
+          <span className="accent-font text-[var(--yellow-base)]">
+            voluntário
+          </span>{" "}
+          é doar um pouco do seu tempo e do seu coração para fazer a diferença
+          no dia a dia dos nossos animais, oferecendo cuidado, atenção e muito
+          amor.
           <br />
           <br />
-          Quer fazer parte? Mande um{" "}
+          Quer fazer parte dessa corrente do bem? Mande um{" "}
           <span className="accent-font text-[var(--yellow-base)]">zap</span> pro
           número
           <a
             className="accent-font text-[var(--yellow-base)] underline"
-            href=""
+            href="https://wa.me/5521989525337"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,11 +68,9 @@ export default function ComoAjudar() {
           e venha ser um elo de amor na vida dos filhos de João. ❤️
           <br />
           <br />
-          Juntos, podemos ir ainda mais longe.{" "}
-          <span className="accent-font text-[var(--yellow-base)]">
-            Compartilhe
-          </span>{" "}
-          essa causa e ajude a espalhar esperança!
+          Juntos, podemos ir ainda mais longe. Cada gesto, cada ajuda e cada
+          compartilhamento fortalecem nossa missão. Espalhe essa causa e ajude a
+          semear esperança por onde for! 🌻🐾
         </p>
       </section>
 
@@ -119,6 +123,41 @@ export default function ComoAjudar() {
               Apoia.se{" "}
             </a>
           </p>
+        </div>
+      </section>
+
+      <section className="side-to-side-section page-side-padding  text-[var(--blue-base)]">
+        <div className="text-wrapper">
+          <h2 className="title">Doe diretamente</h2>
+          <p className="subtitle">
+            As doações para o{" "}
+            <span className="accent-font text-[var(--yellow-base)] ">
+              abrigo
+            </span>{" "}
+            podem ser feitas diretamente por conta bancária ou através da nossa
+            chave Pix. Toda contribuição ajuda a garantir cuidados, alimentação
+            e um lar temporário para os nossos{" "}
+            <span className="accent-font text-[var(--yellow-base)] ">
+              aumigos
+            </span>{" "}
+            resgatados. 💛🐾
+          </p>
+        </div>
+
+        <div className="content-wrapper">
+          <div>
+            <p className="accent-font text-[var(--yellow-base)] ">Bradesco</p>
+            <p>Ag: 0958</p>
+            <p>C/c: 0010416-7</p>
+            <p>pix: abrigo@abrigojoaorosa.org</p>
+          </div>
+          <br />
+          <div>
+            <p className="accent-font text-[var(--yellow-base)] ">Itaú</p>
+            <p>Ag: 9166</p>
+            <p>C/c: 33930-0</p>
+            <p>pix: 20.444.260/0001-63</p>
+          </div>
         </div>
       </section>
     </main>
