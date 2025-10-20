@@ -28,7 +28,7 @@ export function DefaultCard({
 
 export function CardList({ description }: { description: string }) {
   return (
-    <div className="flex flex-col max-w-52 items-center justify-left p-5 text-[var(--white-base)] bg-[var(--blue-base)] border-base md:flex-row md:max-w-xl">
+    <div className="flex flex-col max-w-52 items-center justify-left p-5 text-[var(--white-base)] bg-[var(--blue-base)] border-base shadow-2xl md:flex-row md:max-w-xl">
       <Paw className="w-9 h-9 md:mr-5 shrink-0" />
       <p className="font-bold text-[var(--yellow-base)]">{description} </p>
     </div>

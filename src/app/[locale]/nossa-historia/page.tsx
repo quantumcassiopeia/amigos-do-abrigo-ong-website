@@ -1,5 +1,6 @@
 import { CardList } from "@/components/Cards";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function NossaHistoria() {
   const hero = useTranslations("NossaHistoriaPage.Hero");
@@ -19,7 +20,7 @@ export default function NossaHistoria() {
       </section>
 
       <section className="side-to-side-section page-side-padding">
-        <div className="text-wrapper text-[var(--green-base)] ">
+        <div className="text-wrapper text-[var(--green-base)]">
           <h2 className="title text-[var(--blue-base)] ">Quem somos?</h2>
           <p className="subtitle">
             Somos um grupo de{" "}
@@ -42,7 +43,14 @@ export default function NossaHistoria() {
         </div>
 
         <div className="content-wrapper">
-          <div>imagem</div>
+          <Image
+            src="/images/image-test.jpg"
+            alt="Cao"
+            width={400}
+            height={400}
+            unoptimized
+            className="border-base shadow-2xl  hover:-translate-y-3 hover:scale-102 transition-transform duration-500 ease-in-out"
+          />
         </div>
       </section>
 
