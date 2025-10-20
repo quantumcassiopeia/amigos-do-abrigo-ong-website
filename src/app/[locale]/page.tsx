@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main>
-      <section className="relative hero max-w-full bg-black page-side-padding">
+      <section className="relative hero  bg-black page-side-padding">
         <h1 className="hero-title text-[var(--white-base)] ">
           {hero("Title")}
         </h1>

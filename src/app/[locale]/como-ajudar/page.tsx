@@ -8,7 +8,7 @@ export default function ComoAjudar() {
 
   return (
     <main>
-      <section className="relative hero max-w-full bg-[var(--blue-base)] page-side-padding">
+      <section className="hero bg-[var(--blue-base)] page-side-padding">
         <h1 className="hero-title text-[var(--white-base)]">{hero("Title")}</h1>
         <p className="hero-subtitle text-[var(--white-base)]">
           {hero("Subtitle")}
@@ -43,7 +43,7 @@ export default function ComoAjudar() {
           </p>
         </div>
 
-        <div className="content-wrapper flex flex-col">
+        <div className="content-wrapper">
           <a
             href="https://apoia.se/abrigojoaorosa"
             target="_blank"

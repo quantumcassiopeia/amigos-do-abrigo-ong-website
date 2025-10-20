@@ -28,6 +28,27 @@
     }
   },
 
+  "NossaHistoriaPage": {
+    "Hero": {
+      "Title": "Nossa história",
+      "Subtitle": "Transformando abandono em novas histórias de amor e carinho."
+    },
+
+    "ListCampanhas": [
+      {
+        "description": "Apadrinhamentos de cães, onde a pessoa pode escolher um aufilhado."
+      },
+      { "description": "Aquisição de ração, através de doações mensais." },
+      {
+        "description": "Adoção de cães, filhotes ou adultos, por meio de nossas feiras."
+      },
+      { "description": "Compra de produtos na nossa lojinha." },
+      {
+        "description": "Participação das Vakinhas para melhorias do abrigo e compra de suprimentos médicos."
+      }
+    ]
+  },
+
   "Navbar": [
     {
       "label": "Página inicial",
