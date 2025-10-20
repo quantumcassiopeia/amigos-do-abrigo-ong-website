@@ -69,7 +69,7 @@ export default function HamburgerMenu({ className }: { className?: string }) {
       >
         <Navbar
           className="pt-10 pl-4 inline-flex flex-col gap-4 relative text-[var(--yellow-base)] "
-          lineColor="red"
+          lineColor="var(--blue-base)"
         />
       </div>
     </div>

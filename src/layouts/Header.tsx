@@ -50,7 +50,7 @@ export default function Header() {
           className="hidden md:flex gap-4 bg-white px-4 py-1 border-base text-[var(--yellow-base)] accent-font"
           lineColor="var(--blue-base)"
         />
-        <HamburgerMenu className="md:hidden bg-[var(--base-color)]/80 rounded-sm" />
+        <HamburgerMenu className="md:hidden bg-[var(--blue-base)]/80 rounded-sm" />
       </div>
     </header>
   );
