@@ -37,12 +37,14 @@ export function CardList({ description }: { description: string }) {
 export function DonatingPlanCard({
   price,
   enrollmentPeriod,
+  href,
 }: {
   price: string;
   enrollmentPeriod: string;
+  href: string;
 }) {
   return (
-    <div className="flex flex-col items-center w-[14rem] h-72 py-6 px-3 bg-[var(--yellow-base)] border-base  text-[var(--white-base)]">
+    <div className="flex flex-col items-center w-[14rem] h-72 py-6 px-3 bg-[var(--yellow-base)] border-base  text-[var(--white-base)] shadow-2xl ">
       <Bone className="w-9 h-9 shrink-0" />
       <h3 className="py-3">
         <span className="accent-font text-4xl">R$ {price}/</span> mês
@@ -51,7 +53,11 @@ export function DonatingPlanCard({
         Seja um padrinho por{" "}
         <span className="accent-font">{enrollmentPeriod}</span>
       </p>
-      <Button className="bg-[var(--blue-base)] text-[var(--white-base)] mt-auto">
+      <Button
+        as="a"
+        href={href}
+        className="bg-[var(--blue-base)] text-[var(--white-base)] mt-auto"
+      >
         Apadrinhar
       </Button>
     </div>

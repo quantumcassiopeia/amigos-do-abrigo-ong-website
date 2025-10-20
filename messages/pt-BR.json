@@ -25,7 +25,30 @@
     "SejaUmPadrinho": {
       "Title": "Seja um padrinho",
       "Subtitle": "Não pode adotar um doguinho? Sem problemas! Você pode apadrinhar um dos nossos aumigos por um período, conforme os planos abaixo:"
-    }
+    },
+
+    "PlanosDoacao": [
+      {
+        "price": "30",
+        "enrollmentPeriod": "6 meses",
+        "href": "https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=fa93ffb74ac34c9891115cc59dde6c21"
+      },
+      {
+        "price": "30",
+        "enrollmentPeriod": "1 ano",
+        "href": "https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=b89c14b2af074154b93f550591fafa38"
+      },
+      {
+        "price": "30",
+        "enrollmentPeriod": "tempo indeterminado",
+        "href": "https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=c33edfc102634c118d824706b354590e"
+      },
+      {
+        "price": "???",
+        "enrollmentPeriod": "6 meses com a quantia que quiser!",
+        "href": "https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=a529f944380e4bf489edfc19b894358b"
+      }
+    ]
   },
 
   "NossaHistoriaPage": {
