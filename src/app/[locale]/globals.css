@@ -66,8 +66,8 @@ body {
   align-items: center;
   flex-direction: column;
 
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   text-align: center;
 
@@ -93,8 +93,8 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
 
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   .text-wrapper {
     margin-left: auto;
