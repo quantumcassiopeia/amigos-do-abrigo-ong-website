@@ -25,7 +25,7 @@ export default function ComoAjudar() {
         <h2 className="text-[var(--yellow-base)] title">
           {sejaUmPadrinho("Title")}
         </h2>
-        <p className="text-[var(--green-base)] subtitle">
+        <p className="text-[var(--green-base)] subtitle pb-10 ">
           {sejaUmPadrinho("Subtitle")}
         </p>
 
@@ -38,7 +38,7 @@ export default function ComoAjudar() {
 
       <section className="general-section page-side-padding  bg-[var(--green-base)]">
         <h2 className="text-[var(--yellow-base)] title">Seja um voluntário</h2>
-        <p className="text-[var(--white-base)] subtitle text-left">
+        <p className="text-[var(--white-base)] paragraph">
           Estamos em busca de{" "}
           <span className="accent-font text-[var(--yellow-base)]">
             voluntários

@@ -55,7 +55,7 @@ export default function NossaHistoria() {
 
       <section className="general-section bg-[var(--yellow-base)] page-side-padding">
         <h2 className="title text-[var(--green-base)] ">Nosso objetivo</h2>
-        <p className="subtitle text-[var(--white-base)] text-left font-normal ">
+        <p className="paragraph text-[var(--white-base)]">
           Trabalhamos visando manter a qualidade de vida destes animais que
           foram resgatados das ruas ou abandonados amarrados na própria porta do
           abrigo, motivo pelo qual, infelizmente, não podemos divulgar o
