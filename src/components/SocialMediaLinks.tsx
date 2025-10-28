@@ -2,7 +2,7 @@
 
 import {
   Facebook,
-  GitHub,
+  X,
   WhatsApp,
   AttachEmail,
   Instagram,
@@ -56,9 +56,9 @@ export default function SocialMediaLinks({
       }
     >
       <li>
-        <Link href="/fale-conosco">
-          <AttachEmail sx={iconStyle} />
-        </Link>
+        <a href="https://x.com/abrigojoaorosa" target="_blank" rel="noreferrer">
+          <X sx={iconStyle} />
+        </a>
       </li>
       <li>
         <a

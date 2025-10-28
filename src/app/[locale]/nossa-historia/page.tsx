@@ -21,7 +21,7 @@ export default function NossaHistoria() {
 
       <section className="side-to-side-section page-side-padding">
         <div className="text-wrapper text-[var(--green-base)]">
-          <h2 className="title text-[var(--blue-base)] ">Quem somos?</h2>
+          <h2 className="title text-[var(--blue-base)]">Quem somos?</h2>
           <p className="subtitle">
             Somos um grupo de{" "}
             <span className="accent-font text-[var(--blue-base)]">
