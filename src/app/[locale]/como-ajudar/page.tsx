@@ -102,7 +102,7 @@ export default function ComoAjudar() {
             rel="noreferrer"
           >
             <Image
-              src="/images/logo_apoiase.png"
+              src="/images/logo_apoiase.webp"
               alt="Link de doação no Apoia.se"
               width={400}
               height={400}

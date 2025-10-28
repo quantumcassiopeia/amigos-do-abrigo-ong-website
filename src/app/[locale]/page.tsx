@@ -41,10 +41,10 @@ export default function Home() {
           {nossoTrabalho("Subtitle")}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 bg-red-500 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10">
           <div>
             <Image
-              src="/images/image-test.jpg"
+              src="/images/image-test.webp"
               alt="Link de doação no Apoia.se"
               width={600}
               height={600}

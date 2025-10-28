@@ -85,7 +85,7 @@ export default function ComoAjudar() {
 
         <div className="content-wrapper">
           <Image
-            src="/images/dog_tel.jpg"
+            src="/images/dog_tel.webp"
             alt="Link de doação no Apoia.se"
             width={400}
             height={400}

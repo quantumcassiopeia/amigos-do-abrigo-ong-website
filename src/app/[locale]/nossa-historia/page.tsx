@@ -44,7 +44,7 @@ export default function NossaHistoria() {
 
         <div className="content-wrapper">
           <iframe
-            className="h-92 border-base "
+            className="h-92 border-base w-full"
             src="https://www.youtube.com/embed/RqNLfqB8HOQ"
             title="Abrigo João Rosa no Lar Doce Lar"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
