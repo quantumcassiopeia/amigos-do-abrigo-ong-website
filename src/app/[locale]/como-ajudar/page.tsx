@@ -107,11 +107,11 @@ export default function ComoAjudar() {
               width={400}
               height={400}
               unoptimized
-              className="border-base shadow-2xl  hover:-translate-y-3 hover:scale-102 transition-transform duration-500 ease-in-out"
+              className="border-base shadow-2xl hover:-translate-y-3 hover:scale-102 transition-transform duration-500 ease-in-out"
             />
           </a>
 
-          <p className="max-w-96 text-center pt-5 ">
+          <p className="max-w-96 text-center pt-5">
             Clique na imagem acima e participe da nossa campanha no{" "}
             <a
               href="https://apoia.se/abrigojoaorosa"

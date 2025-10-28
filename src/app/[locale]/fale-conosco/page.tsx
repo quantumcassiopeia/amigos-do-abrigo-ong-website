@@ -90,7 +90,7 @@ export default function ComoAjudar() {
             width={400}
             height={400}
             unoptimized
-            className="border-base shadow-2xl"
+            className="border-base shadow-2xl mx-auto"
           />
         </div>
       </section>
