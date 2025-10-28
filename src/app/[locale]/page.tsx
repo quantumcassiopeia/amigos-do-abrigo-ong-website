@@ -1,9 +1,16 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { CardList } from "@/components/Cards";
 
 export default function Home() {
   const hero = useTranslations("Homepage.Hero");
   const nossoTrabalho = useTranslations("Homepage.NossoTrabalho");
   const conecteConosco = useTranslations("Homepage.ConecteConosco");
+  const resgate = useTranslations("Homepage.NossoTrabalho").raw(
+    "ListResgate"
+  ) as {
+    description: string;
+  }[];
 
   return (
     <main>
@@ -33,6 +40,24 @@ export default function Home() {
         <p className="text-[var(--green-base)] subtitle">
           {nossoTrabalho("Subtitle")}
         </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 bg-red-500 ">
+          <div>
+            <Image
+              src="/images/image-test.jpg"
+              alt="Link de doação no Apoia.se"
+              width={600}
+              height={600}
+              unoptimized
+              className="border-base shadow-2xl"
+            />
+          </div>
+          <ul className="flex flex-wrap gap-3 ">
+            {resgate.map((resgate, index) => (
+              <CardList key={index} {...resgate} />
+            ))}
+          </ul>
+        </div>
       </section>
 
       <section className="general-section bg-[var(--green-base)] page-side-padding">

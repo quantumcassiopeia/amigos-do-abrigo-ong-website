@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import Navbar from "@/components/Navbar";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 export default function Footer() {
   return (
@@ -19,7 +20,8 @@ export default function Footer() {
           <Navbar className="w-fit" lineColor="var(--yellow-base)" />
         </div>
         <div>
-          <h3>redes sociais</h3>
+          <h3>Redes sociais</h3>
+          <SocialMediaLinks position="flex" />
         </div>
         <div className="max-w-[15rem] space-y-2 text-center">
           <p>Au! Au! Manda pix, pufavô!</p>

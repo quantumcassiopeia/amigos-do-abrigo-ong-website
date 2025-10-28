@@ -3,9 +3,12 @@
 :root {
   --blue-base: #3336d0;
   --blue-darker: #1a1c77;
+
   --green-base: #006511;
   --white-base: #ffffff;
+
   --yellow-base: #ff8b00;
+  --yellow-lighter: #ffb151;
 }
 
 body {

@@ -7,7 +7,25 @@
 
     "NossoTrabalho": {
       "Title": "Nosso trabalho",
-      "Subtitle": "Todos os dias, atuamos para transformar a realidade de cães abandonados e vítimas de maus-tratos. Nosso trabalho vai muito além do resgate: cuidamos de cada etapa até que eles estejam prontos para um novo começo."
+      "Subtitle": "Todos os dias, atuamos para transformar a realidade de cães abandonados e vítimas de maus-tratos. Nosso trabalho vai muito além do resgate: cuidamos de cada etapa até que eles estejam prontos para um novo começo.",
+
+      "ListResgate": [
+        {
+          "description": "Recebemos denúncias ou relatos de animais em situação de risco e avaliamos cuidadosamente cada caso antes de agir."
+        },
+        {
+          "description": "Quando o resgate é confirmado, o animal é retirado com segurança e recebe os primeiros cuidados veterinários."
+        },
+        {
+          "description": "Ele é acolhido em um espaço limpo e tranquilo, onde pode se recuperar com conforto."
+        },
+        {
+          "description": "Sua história e suas fotos são compartilhadas para ajudá-lo a encontrar uma nova família."
+        },
+        {
+          "description": "A adoção é acompanhada de perto, garantindo que ele seja bem acolhido e receba todo o amor que merece."
+        }
+      ]
     },
 
     "ConecteConosco": {
