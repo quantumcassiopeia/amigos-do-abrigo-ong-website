@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { CardList, DefaultCard } from "@/components/Cards";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 export default function Home() {
   const hero = useTranslations("Homepage.Hero");
@@ -55,7 +56,7 @@ export default function Home() {
           {nossoTrabalho("Subtitle")}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 max-w-7xl">
           <div>
             <Image
               src="/images/image-test.webp"
@@ -66,7 +67,7 @@ export default function Home() {
               className="border-base shadow-2xl"
             />
           </div>
-          <ul className="flex flex-wrap gap-3 ">
+          <ul className="flex flex-wrap justify-center gap-3 ">
             {resgate.map((resgate, index) => (
               <CardList key={index} {...resgate} />
             ))}
@@ -75,7 +76,7 @@ export default function Home() {
       </section>
 
       <section className="general-section bg-[var(--green-base)] page-side-padding">
-        <h2 className="text-[var(--yellow-base)] title">
+        <h2 className="text-[var(--yellow-lighter)] title">
           {conecteConosco("Title")}
         </h2>
         <p className="text-[var(--white-base)] subtitle">
