@@ -25,7 +25,9 @@ export default function Footer() {
         </div>
         <div className="max-w-[15rem] space-y-2 text-center pt-16 mx-auto md:mx-0 md:pt-0 ">
           <p>Au! Au! Manda pix, pufavô!</p>
-          <div className="h-[15rem] w-[15rem] bg-white" />
+          <div className="h-[15rem] w-[15rem] bg-white text-black">
+            QR Code chave pix
+          </div>
           <p>20.444.260/0001-63</p>
           <p>{"(Pix Itaú)"}</p>
           <p>
@@ -44,7 +46,7 @@ export default function Footer() {
               href="https://qcsolutions.tech/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-[var(--yellow-base)] transition-colors duration-700 ease-in-out "
+              className="underline hover:text-[var(--yellow-lighter)] transition-colors duration-700 ease-in-out "
             >
               Robert Souza
             </a>
