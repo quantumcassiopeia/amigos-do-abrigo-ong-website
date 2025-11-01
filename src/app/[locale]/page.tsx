@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { CardList } from "@/components/Cards";
+import { CardList, DefaultCard } from "@/components/Cards";
 
 export default function Home() {
   const hero = useTranslations("Homepage.Hero");
@@ -10,6 +10,12 @@ export default function Home() {
     "ListResgate"
   ) as {
     description: string;
+  }[];
+  const featuresLinks = useTranslations("Homepage").raw("FeaturesLinks") as {
+    title: string;
+    description: string;
+    button: string;
+    action: string;
   }[];
 
   return (
@@ -31,6 +37,14 @@ export default function Home() {
           aria-hidden
           role="presentation"
         />
+      </section>
+
+      <section className="flex flex-col md:flex-row justify-center bg-[var(--blue-base)]">
+        <ul className="flex flex-wrap justify-center gap-3 -translate-y-28">
+          {featuresLinks.map((feature, index) => (
+            <DefaultCard key={index} {...feature} />
+          ))}
+        </ul>
       </section>
 
       <section className="general-section page-side-padding">

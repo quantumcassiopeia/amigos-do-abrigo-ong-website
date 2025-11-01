@@ -5,6 +5,36 @@
       "Subtitle": "De doação em doação, enchemos vários potinhos de ração"
     },
 
+    "FeaturesLinks": [
+      {
+        "title": "Lojinha",
+        "description": "Cada compra na nossa lojinha ajuda a transformar vidas! Ao adquirir nossos produtos, você contribui diretamente para o cuidado, alimentação e tratamento dos animais resgatados. ",
+        "button": "Visite",
+        "action": "https://www.instagram.com/lojinhaajr/"
+      },
+
+      {
+        "title": "Apoio",
+        "description": "Existem várias formas de contribuir: doações, apadrinhamento, adoção e voluntariado. Se você quer ajudar, venha fazer parte da nossa família! ",
+        "button": "Participe",
+        "action": "/como-ajudar"
+      },
+
+      {
+        "title": "Adoção",
+        "description": "Nossos cães merecem amor, respeito e uma segunda chance de serem felizes. A adoção é um ato de amor que transforma não só a vida deles, mas também a de quem acolhe.",
+        "button": "Adote",
+        "action": "/adote"
+      },
+
+      {
+        "title": "XXXXXX",
+        "description": "XXXXXXXX xxx",
+        "button": "XXXXXX",
+        "action": "/como-ajudar"
+      }
+    ],
+
     "NossoTrabalho": {
       "Title": "Nosso trabalho",
       "Subtitle": "Todos os dias, atuamos para transformar a realidade de cães abandonados e vítimas de maus-tratos. Nosso trabalho vai muito além do resgate: cuidamos de cada etapa até que eles estejam prontos para um novo começo.",

@@ -8,7 +8,7 @@ export default function NotFound() {
       <section className="flex flex-col items-center justify-center page-side-padding py-20 text-[var(--green-base)] text-center">
         <h1 className="text-[var(--yellow-base)] text-4xl">Ops!!! Error 404</h1>
         <Image
-          src="/images/error404.jpg"
+          src="/images/error404.webp"
           alt="Error 404"
           width={500}
           height={500}
