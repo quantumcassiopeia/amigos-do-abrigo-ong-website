@@ -56,15 +56,30 @@ export default function NossaHistoria() {
       <section className="general-section bg-[var(--yellow-base)] page-side-padding">
         <h2 className="title text-[var(--green-base)] ">Nosso objetivo</h2>
         <p className="paragraph text-[var(--white-base)]">
-          Trabalhamos visando manter a qualidade de vida destes animais que
-          foram resgatados das ruas ou abandonados amarrados na própria porta do
-          abrigo, motivo pelo qual, infelizmente, não podemos divulgar o
-          endereço. Muitos destes animais chegam em situação de extrema
-          fragilidade, com diferentes doenças e ferimentos. Outros foram
-          descartados por serem idosos ou simplesmente por não serem mais
-          interessantes para seus donos. A todos estes, procuramos garantir
-          alimentação diária e cuidados médicos, além, é claro, de carinho e
+          Trabalhamos para garantir qualidade de vida aos{" "}
+          <span className="accent-font text-[var(--green-base)] ">
+            animais resgatados
+          </span>{" "}
+          das ruas ou abandonados na porta do abrigo. Por segurança, não
+          divulgamos o endereço. Muitos chegam em condições delicadas, com
+          doenças ou ferimentos; outros foram deixados por serem idosos ou por
+          terem deixado de serem interessantes a seus donos. A todos oferecemos
+          alimentação diária, cuidados veterinários e, acima de tudo, carinho e
           atenção.
+        </p>
+        <br />
+
+        <p className="paragraph text-[var(--white-base)]">
+          Nosso{" "}
+          <span className="accent-font text-[var(--green-base)] ">
+            compromisso
+          </span>{" "}
+          vai além do resgate: buscamos proporcionar a cada animal uma nova
+          chance de ser amado e de viver com dignidade. Por isso, investimos em
+          reabilitação, socialização e campanhas de adoção responsável,
+          acreditando que cada um deles merece encontrar um lar seguro e cheio
+          de{" "}
+          <span className="accent-font text-[var(--green-base)] ">afeto</span>.
         </p>
       </section>
 

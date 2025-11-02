@@ -27,58 +27,51 @@ export default function ComoAjudar() {
             no rodape da página!
           </p>
 
-          <ul className="pt-4 space-y-2">
+          <ul className="pt-4 space-y-2 text-left">
             <li>
+              <span className="accent-font">Principal: </span>
               <a
-                className="accent-font"
+                className="text-[var(--green-base)] underline"
                 href="mailto:abrigo@abrigojoaorosa.org"
               >
-                Principal:{" "}
-              </a>
-              <span className="text-[var(--green-base)] underline">
                 abrigo@abrigojoaorosa.org
-              </span>
+              </a>
             </li>
             <li>
+              <span className="accent-font">Adoção: </span>
               <a
-                className="accent-font"
+                className="text-[var(--green-base)] underline"
                 href="mailto:adocao@abrigojoaorosa.org"
               >
-                Adoção:{" "}
-              </a>
-              <span className="text-[var(--green-base)] underline">
                 adocao@abrigojoaorosa.org
-              </span>
+              </a>
             </li>
             <li>
+              <span className="accent-font">Apadrinhamento: </span>
               <a
-                className="accent-font"
+                className="text-[var(--green-base)] underline"
                 href="mailto:apadrinhamento@abrigojoaorosa.org"
               >
-                Apadrinhamento:{" "}
-              </a>
-              <span className="text-[var(--green-base)] underline">
                 apadrinhamento@abrigojoaorosa.org
-              </span>
-            </li>
-            <li>
-              <a className="accent-font" href="mailto:racao@abrigojoaorosa.org">
-                Campanha da ração:{" "}
               </a>
-              <span className="text-[var(--green-base)] underline">
-                racao@abrigojoaorosa.org
-              </span>
             </li>
             <li>
+              <span className="accent-font">Campanha da ração: </span>
               <a
-                className="accent-font"
+                className="text-[var(--green-base)] underline"
+                href="mailto:racao@abrigojoaorosa.org"
+              >
+                racao@abrigojoaorosa.org
+              </a>
+            </li>
+            <li>
+              <span className="accent-font">Ouvidoria: </span>
+              <a
+                className="text-[var(--green-base)] underline"
                 href="mailto:ouvidoria@abrigojoaorosa.org"
               >
-                Ouvidoria:{" "}
-              </a>
-              <span className="text-[var(--green-base)] underline">
                 ouvidoria@abrigojoaorosa.org
-              </span>
+              </a>
             </li>
           </ul>
         </div>

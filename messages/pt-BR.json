@@ -28,10 +28,10 @@
       },
 
       {
-        "title": "XXXXXX",
-        "description": "XXXXXXXX xxx",
-        "button": "XXXXXX",
-        "action": "/como-ajudar"
+        "title": "Dê um alô",
+        "description": "Estamos sempre prontos para ouvir. Chama a gente e vamos conversar! Caso precise falar com o abrigo, clique no botão abaixo.",
+        "button": "Contatar",
+        "action": "/fale-conosco"
       }
     ],
 

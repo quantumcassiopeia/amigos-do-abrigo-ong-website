@@ -71,6 +71,8 @@ export default function Adote() {
           as="a"
           href="https://docs.google.com/forms/d/e/1FAIpQLSck5uBW7VqMfk7zADEKt9Y1z3IUQrRycWMbngb0sea8YTFZLg/viewform"
           className="bg-[var(--yellow-base)] text-[var(--white-base)] mx-auto mt-8"
+          target="_blank"
+          rel="noreferrer"
         >
           Candidatar-se
         </Button>

@@ -54,8 +54,10 @@ export default function ComoAjudar() {
           <br />
           <br />
           Quer fazer parte dessa corrente do bem? Mande um{" "}
-          <span className="accent-font text-[var(--yellow-base)]">zap</span> pro
-          número
+          <span className="accent-font text-[var(--yellow-base)]">
+            zap
+          </span>{" "}
+          clicando no número
           <a
             className="accent-font text-[var(--yellow-base)] underline"
             href="https://wa.me/5521989525337"
@@ -88,8 +90,11 @@ export default function ComoAjudar() {
             isolamento. Cerca de 50 cães residem em lares temporários, nos quais
             uma{" "}
             <span className="accent-font text-[var(--blue-base)]">família</span>{" "}
-            cede o espaço e o abrigo arca com todas as despesas, incluindo a
-            alimentação. Com apenas{" "}
+            cede o espaço e o{" "}
+            <span className="accent-font text-[var(--blue-base)]">
+              abrigo arca com todas as despesas
+            </span>
+            , incluindo a alimentação. Com apenas{" "}
             <span className="accent-font text-[var(--blue-base)]">R$ 1,00</span>{" "}
             você já faz a diferença.
           </p>

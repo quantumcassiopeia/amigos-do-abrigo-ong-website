@@ -18,7 +18,7 @@ export function DefaultCard({
       <h3 className="accent-font text-[var(--yellow-base)] text-4xl">
         {title}
       </h3>
-      <p className="text-[var(--green-base)] pt-1.5 pb-2 leading-6">
+      <p className="text-[var(--green-base)] pt-2.5 pb-2 leading-6 text-center">
         {description}
       </p>
       <Button

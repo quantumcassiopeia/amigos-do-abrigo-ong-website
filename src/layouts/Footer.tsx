@@ -46,7 +46,7 @@ export default function Footer() {
               href="https://qcsolutions.tech/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-[var(--yellow-lighter)] transition-colors duration-700 ease-in-out "
+              className="underline hover:text-[var(--yellow-lighter)] transition-colors duration-700 ease-out"
             >
               Robert Souza
             </a>
