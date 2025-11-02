@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  Facebook,
-  X,
-  WhatsApp,
-  AttachEmail,
-  Instagram,
-} from "@mui/icons-material";
-import { useState, useEffect, useRef } from "react";
-import { Link } from "@/i18n/navigation";
+import { Facebook, X, WhatsApp, Instagram } from "@mui/icons-material";
 
 const iconStyle = {
   fontSize: "2.4rem",
@@ -24,35 +16,14 @@ const iconStyle = {
 export default function SocialMediaLinks({
   position,
 }: {
-  position: "flex" | "fixed";
+  position: "block" | "bounce";
 }) {
-  const [showContent, setShowContent] = useState(false);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
-      timerRef.current = setTimeout(() => {
-        setShowContent(false);
-      }, 3000);
-      setShowContent(true);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
-  }, []);
-
   return (
     <ul
       className={
-        position === "flex"
+        position === "block"
           ? "flex flex-wrap md:max-w-[8rem]"
-          : showContent
-          ? "scale-75 fixed top-1/2 right-0 transform duration-300 ease-in-out -translate-y-1/2 z-40 bg-white py-2 px-1 rounded-3xl shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
-          : " translate-x-[100%] scale-75 fixed top-1/2 right-0 transform duration-300 ease-in-out -translate-y-1/2 z-40 bg-white py-2 px-1 rounded-3xl shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
+          : "flex pt-10 gap-14 spin-bounce"
       }
     >
       <li>

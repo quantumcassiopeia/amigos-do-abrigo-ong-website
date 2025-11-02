@@ -11,7 +11,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               src="/images/logo.png"
-              alt="Logo e homepage deAmigos do Abrigo João Rosa"
+              alt="Logo e homepage de Amigos do Abrigo João Rosa"
               height={64}
               width={64}
               unoptimized
@@ -21,12 +21,19 @@ export default function Footer() {
         </div>
         <div>
           <h3>Redes sociais</h3>
-          <SocialMediaLinks position="flex" />
+          <SocialMediaLinks position="block" />
         </div>
         <div className="max-w-[15rem] space-y-2 text-center pt-16 mx-auto md:mx-0 md:pt-0 ">
           <p>Au! Au! Manda pix, pufavô!</p>
-          <div className="h-[15rem] w-[15rem] bg-white text-black">
-            QR Code chave pix
+          <div className="aspect-square w-[15rem]">
+            <Image
+              src="/images/image-test.webp"
+              alt="Chave pix Itaú"
+              width={600}
+              height={600}
+              unoptimized
+              className="border-base"
+            />
           </div>
           <p>20.444.260/0001-63</p>
           <p>{"(Pix Itaú)"}</p>

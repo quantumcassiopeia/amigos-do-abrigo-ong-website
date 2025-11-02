@@ -59,7 +59,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 max-w-7xl">
           <AutoCarousel className="mx-auto" />
-          <ul className="flex flex-wrap justify-center gap-3 ">
+          <ul className="grid grid-cols-2 md:grid-cols-1  gap-4 max-h-lg">
             {resgate.map((resgate, index) => (
               <CardList key={index} {...resgate} />
             ))}
@@ -74,6 +74,18 @@ export default function Home() {
         <p className="text-[var(--white-base)] subtitle">
           {conecteConosco("Subtitle")}
         </p>
+
+        <div className="flex flex-col items-center">
+          <SocialMediaLinks position="bounce" />
+          <Image
+            src="/images/instagram-feed.webp"
+            alt="Feed de rede social mostrando cãozinho"
+            width={600}
+            height={600}
+            unoptimized
+            className="mt-10 border-base"
+          />
+        </div>
       </section>
     </main>
   );

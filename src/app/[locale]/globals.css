@@ -33,6 +33,23 @@ body {
   padding-right: 0.75rem;
 }
 
+.spin-bounce {
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.spin-bounce:hover {
+  animation-play-state: paused;
+}
+
 /* Sections */
 
 .hero {
