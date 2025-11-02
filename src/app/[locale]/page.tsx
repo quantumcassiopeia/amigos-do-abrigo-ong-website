@@ -58,7 +58,7 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 max-w-7xl">
-          <AutoCarousel />
+          <AutoCarousel className="mx-auto" />
           <ul className="flex flex-wrap justify-center gap-3 ">
             {resgate.map((resgate, index) => (
               <CardList key={index} {...resgate} />

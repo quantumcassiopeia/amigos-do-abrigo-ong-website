@@ -12,7 +12,7 @@ const images = [
   "slide6.webp",
 ];
 
-export default function AutoCarousel() {
+export default function AutoCarousel({ className }: { className?: string }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -23,7 +23,9 @@ export default function AutoCarousel() {
   }, []);
 
   return (
-    <div className="relative aspect-square max-w-[600px] overflow-hidden border-base">
+    <div
+      className={`relative aspect-square w-full max-w-[600px] overflow-hidden border-base ${className} `}
+    >
       {images.map((src, index) => (
         <Image
           key={index}
