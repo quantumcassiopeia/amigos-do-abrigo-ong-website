@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="general-section bg-[var(--green-base)] page-side-padding">
+      <section className="general-section bg-[var(--green-base)] page-side-padding overflow-clip ">
         <h2 className="text-[var(--yellow-base)] title">
           {conecteConosco("Title")}
         </h2>
@@ -83,7 +83,7 @@ export default function Home() {
             width={600}
             height={600}
             unoptimized
-            className="mt-10 border-base"
+            className="mt-10 border-base rotate-6"
           />
         </div>
       </section>

@@ -50,7 +50,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} key={locale} suppressHydrationWarning={true}>
       <body
-        className={`${accentFont.variable} ${baseFont.variable} antialiased relative flex flex-col overflow-x-clip h-screen max-w-screen`}
+        className={`${accentFont.variable} ${baseFont.variable} antialiased relative flex flex-col overflow-x-hidden h-screen max-w-screen`}
       >
         <NextIntlClientProvider>
           <Header />
