@@ -1,6 +1,5 @@
 import { CardList } from "@/components/Cards";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 
 export default function NossaHistoria() {
   const hero = useTranslations("NossaHistoriaPage.Hero");
